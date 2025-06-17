@@ -15,9 +15,10 @@ To install `yay`, see the [github page of yay](https://github.com/Jguer/yay).
 
 ### Language display
 ---
-Upon first installation of Arch Linux system, the system should be generally fully in English and does not support any other languages. Other languages (like Chinese) is not recognizable and therefore displayed as blocks. This is because:
+Upon first installation of Arch Linux system, the system is generally in full English and does not support any other languages. Other languages (like Chinese) is not recognizable and therefore displayed as blocks. This is because:
 1. Specific language support not enabled due to **locale** settings.
 2. Missing corresponding **fonts**.
+
 We should solve this issue step by step.
 
 #### Modifying locale settings
