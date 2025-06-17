@@ -4,12 +4,14 @@ This repository keeps track of the path of exploring linux systems, including ne
 # Arch Linux
 ## Necessary Setup
 ### Arch User Repository (AUR) helper
+---
 To install packages on a Arch Linux machine, one good option is to use `pacman`[package manager](https://wiki.archlinux.org/title/Pacman) that's been integrated to the system on installation.
 While [Arch User Repository(AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) also supports thousands and millions of useful packages, we should employ a helper to install from AUR.
 In this guide, we are using `yay` as the default AUR helper.
 To install `yay`, see the [github page of yay](https://github.com/Jguer/yay).
 
 ### Language display
+---
 Upon first installation of Arch Linux system, the system should be generally fully in English and does not support any other languages. Other languages (like Chinese) is not recognizable and therefore displayed as blocks. This is because:
 1. Specific language support not enabled due to **locale** settings.
 2. Missing corresponding **fonts**.
@@ -62,6 +64,7 @@ The installation of fonts on linux should be very straight forward.
 After completing the steps, reboot your system, and you should see the languages displayed normally.
 
 ### Input method
+---
 The general steps for employing a multi-languages input method on Arch Linux are as follows.
 1. Install a input method package.
 2. Install correspoding language add-ons.
