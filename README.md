@@ -4,6 +4,7 @@ This repository keeps track of the path of exploring linux systems, including ne
 # Arch Linux
 Best Linux distribute ever!!
 ![Arch Linux chan](/Resources/Image/ArchLinux.png)
+(Credit: [@RavioliMavioli](https://krita-artists.org/t/archlinux-chan/49206))(After AI processed)
 ## Necessary Setup
 ### Arch User Repository (AUR) helper
 ---
