@@ -70,7 +70,7 @@ After completing the steps, reboot your system, and you should see the languages
 ### Input method
 ---
 The general steps for employing a multi-languages input method on Arch Linux are as follows.
-1. Install a input method package.
+1. Install an input method package.
 2. Install correspoding language add-ons.
 3. (Specially on gnome Arch Linux) Solve the problem that there isn't pop up window while typing.
 4. Configure the input method.
