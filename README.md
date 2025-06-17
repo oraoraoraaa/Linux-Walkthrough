@@ -87,7 +87,7 @@ yay -S fcitx5
 to install the fcitx5 package.
 For other methods, make use of the internet.
 
-CAUTION: You SHOULDN'T rely fully on the code listed above. Because the package would be updated and its name might change. Follow the link to see the real-time and latest package name to install is the best choice. The same caution is also applicable to all the installation-related code in this document.
+CAUTION: You SHOULDN'T rely fully on the code listed above. Because the package would be updated and its name might change. Following the link to check the real-time and latest package name to install is the best choice. The same caution is also applicable to all the installation-related code in this document.
 
 #### Install corresponding language add-ons
 For Chinese language add-ons, the package [fcitx5-chinese-addons](https://archlinux.org/packages/?name=fcitx5-chinese-addons) is recommended. Run
