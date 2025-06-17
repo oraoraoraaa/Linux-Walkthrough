@@ -61,7 +61,7 @@ LANGUAGE=ja_JP
 See [this link](https://wiki.archlinux.org/title/Locale#Variables) for more information.
 
 #### Installing missing fonts
-After finishing the locale settings, download the missing fonts on Arch wiki by searching "Localization/<DESIRED LANGUAGE>". For example, the  [Arch wiki page](https://wiki.archlinux.org/title/Localization/Chinese) for Chinese localization.
+After finishing the locale settings, download the missing fonts on Arch wiki by searching "Localization/*(DESIRED LANGUAGE)". For example, search Localization/Chinese to the  [Arch wiki page](https://wiki.archlinux.org/title/Localization/Chinese) for Chinese localization.
 
 The installation of fonts on linux should be very straight forward.
 
