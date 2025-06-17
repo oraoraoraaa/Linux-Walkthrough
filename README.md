@@ -2,6 +2,8 @@
 This repository keeps track of the path of exploring linux systems, including necessary reminders and step instructions. Resources used in this repository would be shared publicly, honoring the creators and contributers to all the splendid tools.
 
 # Arch Linux
+Best Linux distribute ever!!
+![Arch Linux chan](/Resources/Image/ArchLinux.png)
 ## Necessary Setup
 ### Arch User Repository (AUR) helper
 ---
