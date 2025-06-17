@@ -24,7 +24,7 @@ In arch linux, the locale.gen file in `/etc/locale.gen` controls what languages 
 ```
 #iu_CA UTF-8  
 #ja_JP.EUC-JP EUC-JP  
-ja_JP.UTF-8 UTF-8  *//Uncomment the desired language(s) here.*
+ja_JP.UTF-8 UTF-8  //Uncomment the desired language(s) here.
 #ka_GE.UTF-8 UTF-8  
 #ka_GE GEORGIAN-PS  
 ```
