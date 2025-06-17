@@ -36,7 +36,7 @@ ja_JP.UTF-8 UTF-8  //Uncomment the desired language(s) here.
 ```
 (See more information [here](https://wiki.archlinux.org/title/Locale).)
 
-CAUTION: DO NOT use encoding identifiers in a mixed way. If you've chosen UTF-8, then keep it consistent for the remaining languages.
+CAUTION: DO NOT mix use the encoding methods. If you've chosen UTF-8, then keep it consistent for the remaining languages.
 
 Then, save and close the file, and run:
 ```
