@@ -5,6 +5,71 @@ This repository keeps track of the path of exploring linux systems, including ne
 Best Linux distribute ever!!
 ![Arch Linux chan](/Resources/Image/ArchLinux.png)
 (Credit: [@RavioliMavioli](https://krita-artists.org/t/archlinux-chan/49206))(After AI processed)
+## During Installation
+### Network configuration
+---
+When starting up from an installation medium, you would need to connect to the internet manually before proceeding the installation process.
+Run
+```
+rfkill
+```
+to check the status of the of wireless devices. See more at [rfkill(Radio Frequency Killswitch)](https://man.archlinux.org/man/rfkill.8).
+
+The proper status of devices should be as follows to proceed.
+```
+ID TYPE            DEVICE                                SOFT                   HARD
+ 0 wlan              ideapad_wlan           unblocked           unblocked
+ 1 bluetooth      ideapad_bluetooth   unblocked           unblocked
+ 2 bluetooth     hci0                             unblocked           unblocked
+ 3 wlan              phy0                           unblocked           unblocked
+
+```
+If any of the devices' status is set to `blocked`, run
+```
+rfkill unblock wlan
+```
+or
+```
+rfkill unblock bluetooth
+```
+to unblock the corresponding devices.
+
+After unblocking all devices, run
+```
+iwctl
+```
+(Internet wireless control utility) to enter network configuration interface. See [Arch manual](https://man.archlinux.org/man/extra/iwd/iwctl.1.en) for more information.
+
+Then run
+```
+device list
+```
+to list all the internet wireless devices. Remember your device's name for further use.
+
+Run
+```
+station DEVICE scan
+```
+to scan for all available networks. Replace the `DEVICE` with your own device name. This command WILL NOT produce any output.
+
+Run
+```
+station DEVICE get-networks
+```
+to print all available networks. 
+
+Run
+```
+station DEVICE connect NETWORK
+```
+to connect to the desired network. If the network requires password to connect, the program would ask you for the password later.
+
+After connected to the internet, run
+```
+archinstall
+```
+to run automatic installation script. Then follow the instruction on screen to finish installation.
+
 ## Necessary Setup
 ### Arch User Repository (AUR) helper
 ---
@@ -131,3 +196,5 @@ XMODIFIERS=@im=fcitx5
 CAUTION: If your installation environment is not the same with the guide (such as input method is not fcitx5, or your machine is not gnome running Arch Linux), you should search the web for the environment variable configuration. You could navigate to this [Arch wiki](https://wiki.archlinuxcn.org/wiki/Fcitx5#%E9%85%8D%E7%BD%AE) for more information.
 
 Finally, reboot your system to let the input method take effect.
+
+
